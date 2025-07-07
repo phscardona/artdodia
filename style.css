@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f3f3f3;
+  color: #222;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  background: white;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.vs {
+  font-size: 24px;
+  margin: 0 20px;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#score {
+  margin-top: 10px;
+  font-size: 18px;
+}
